@@ -1,11 +1,13 @@
 
 /* global __dirname */
 var http = require('http');
+var process = require('process');
 var spawn = require('child_process').spawn;
 var path = require('path');
 var backend = require('git-http-backend');
 
 var port = 8000;
+var directory = process.cwd();
 
 var server = http.createServer(function (req, res) {
 
