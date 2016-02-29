@@ -17,7 +17,6 @@
     "basic",
     "auth"
   ],
-  //Add here this here
   "preferGlobal": true,
   "bin": {
     "git-serve" : "cli.js"
