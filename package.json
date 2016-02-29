@@ -17,6 +17,14 @@
     "basic",
     "auth"
   ],
+  //Add here this here
+  "preferGlobal": true,
+  "bin": {
+    "git-serve" : "cli.js"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
   "author": "Ryan Van Rooyen",
   "license": "MIT",
   "bugs": {
