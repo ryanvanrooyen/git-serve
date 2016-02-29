@@ -9,7 +9,7 @@ var insert = require('gulp-insert');
 // var sourcemaps = require('gulp-sourcemaps');
 
 
-gulp.task('release', function () {
+gulp.task('test', function () {
 
 
 });

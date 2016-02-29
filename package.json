@@ -5,7 +5,8 @@
   "main": "Bin/cli.js",
   "bin": "Bin/cli.js",
   "scripts": {
-    "test": "gulp --silent"
+    "test": "gulp test --silent",
+    "prepublish": "gulp release"
   },
   "repository": {
     "type": "git",
