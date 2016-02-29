@@ -12,7 +12,7 @@ var directory = process.cwd();
 var server = http.createServer(function (req, res) {
 
     var repo = req.url.split('/')[1];
-    var dir = path.join(__dirname, repo);
+    var dir = path.join(directory, repo);
 
     req.pipe(backend(req.url, function (err, service) {
         if (err) return res.end(err + '\n');
@@ -28,5 +28,5 @@ var server = http.createServer(function (req, res) {
 
 server.listen(port, function () {
     console.log('Serving git repos in current directory on port ' + port);
-	console.log('Repo directory: ' + __dirname);
+	console.log('Repo directory: ' + directory);
 });
