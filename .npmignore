@@ -20,6 +20,7 @@ coverage
 *.js.map
 
 # Ignore all source and test files
+/Source
 /Tests
 
 # Ignore VS Code project settings and build files.

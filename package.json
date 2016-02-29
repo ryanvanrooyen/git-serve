@@ -2,7 +2,8 @@
   "name": "git-serve",
   "version": "0.0.2",
   "description": "A simple CLI to serve a directory of git repos over http.",
-  "main": "cli.js",
+  "main": "Bin/cli.js",
+  "bin": "Bin/cli.js",
   "scripts": {
     "test": "gulp --silent"
   },
@@ -18,11 +19,8 @@
     "auth"
   ],
   "preferGlobal": true,
-  "bin": {
-    "git-serve": "cli.js"
-  },
   "engines": {
-    "node": "4.0.0"
+    "node": ">=4.0.0"
   },
   "author": "Ryan Van Rooyen",
   "license": "MIT",
@@ -34,6 +32,7 @@
     "git-http-backend": "^1.0.0"
   },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-insert": "^0.5.0"
   }
 }
