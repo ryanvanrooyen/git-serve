@@ -56,6 +56,6 @@ var server = http.createServer(function (req, res) {
 });
 
 server.listen(port, function () {
-	console.log('Serving git repos in current directory on port ' + port);
+	console.log('Serving git repos on port ' + port);
 	console.log('Repo directory: ' + directory);
 });
