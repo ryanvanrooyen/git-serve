@@ -1,6 +1,6 @@
 {
   "name": "git-serve",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple CLI to serve a directory of git repos over http.",
   "main": "Bin/cli.js",
   "bin": "Bin/cli.js",
