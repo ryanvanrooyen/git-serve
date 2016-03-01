@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/ryanvanrooyen/git-serve#readme",
   "dependencies": {
+    "commander": "^2.9.0",
     "git-http-backend": "^1.0.0"
   },
   "devDependencies": {
