@@ -3,6 +3,7 @@ A simple CLI to serve a directory of git repos over http.
 
 
 ### Install
+##### Make sure Git is installed and in your PATH variable so git-upload-pack and git-receive-pack can be found.
 
 ```sh
 $ npm install git-serve -g
