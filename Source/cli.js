@@ -30,6 +30,7 @@ function getVersion() {
 }
 
 program
+	.command('git-serve')
     .option('-V, --version', 'output the version number', getVersion)
     .option('-p, --port <number>', 'Set port number to listen on.', setPort)
     .option('-d, --directory <path>', 'Set directory of repos to serve.', setDirectory)
